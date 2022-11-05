@@ -8,7 +8,6 @@ def pown(a,n):
 a, n = list(map(int, input().split(' ')))
 if n < 0:
   print("Please enter a Positive number for Square")
-  break
 elif n == 0:
   print("the Power of {} ^ {} is :{}".format(a,n,1))
 else:
