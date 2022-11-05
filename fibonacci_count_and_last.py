@@ -18,7 +18,7 @@ else:
   print(fibo(fib_num))
   #Case 2 for Series of values of Fibonacci
   for i in range(fib_num):
-    print(fibo(i))
+    print(fibo(i), end=' ')
   #Case 3 For Sum of the all numbers in Fibonacci Series
   sum = 0
   for i in range(fib_num):
