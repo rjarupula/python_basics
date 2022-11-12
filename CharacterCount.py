@@ -13,3 +13,13 @@ if len(s) == 0:
 else:
 	charCount(s)
 	
+
+def characterCount():
+	string = input('Get the input from user as paragrapph.')
+	char_count = {}
+	for char in string:
+		char_count[char.lower()] = char_count.get(i, 0) + 1
+		
+	print(char_count)
+
+characterCount()
